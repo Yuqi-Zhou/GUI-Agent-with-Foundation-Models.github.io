@@ -297,18 +297,21 @@ header .intro-text {
 } */
 
 header .intro-text .intro-heading {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 10px;
-    margin-bottom: 5px
+    font-size: 24px; /* Adjust font-size for smaller screens */
+    line-height: 28px; /* Adjust line-height for smaller screens */
+    margin-bottom: 8px; /* Adjust margin-bottom for smaller screens */
 }
 
 header .intro-text .intro-information {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 20px;
-    line-height: 25px;
-    margin-bottom: 5px
+    font-size: 16px; /* Adjust font-size for smaller screens */
+    line-height: 24px; /* Adjust line-height for smaller screens */
+    margin-bottom: 4px; /* Adjust margin-bottom for smaller screens */
+}
+
+header .intro-text .intro-location {
+    font-size: 20px; /* Adjust font-size for smaller screens */
+    line-height: 28px; /* Adjust line-height for smaller screens */
+    margin-bottom: 4px; /* Adjust margin-bottom for smaller screens */
 }
 
 @media (min-width:500px) {
